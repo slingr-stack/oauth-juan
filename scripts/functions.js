@@ -88,6 +88,8 @@ exports.testFunction= function () {
                 sys.logs.error('userConnected callback (test)');
                 sys.logs.error('originalMessage (test)'+ JSON.stringify(originalMessage));
                 sys.logs.error('callbackData (test)'+ JSON.stringify(callbackData));
+                sys.storage.put(callbackData.id +' - refresh_token', response.refresh_token);
+
             }
         }
     });
