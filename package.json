@@ -64,12 +64,10 @@
   "metadata": [
     {
       "type": "script",
-      "namespace": "api",
       "path": "/scripts/functions.js"
     },
     {
       "type": "uiService",
-      "namespace": "oAuth",
       "path": "/uiServices/oAuth"
     }
   ]
